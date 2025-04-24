@@ -1,12 +1,76 @@
-# React + Vite
+# My React App 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React application built using [Vite](https://vitejs.dev/) and deployed via [GitHub Pages](https://pages.github.com/).
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [View Site](https://muhammed-dilshad.github.io/Tic-Tac-Toe/)
 
-## Expanding the ESLint configuration
+> Replace with your actual URL after deployment.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Tech Stack
+
+- ⚛️ React
+- ⚡ Vite
+- 📁 GitHub Pages (deployment)
+- 🎨 CSS
+
+---
+
+## 🛠️ Getting Started
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Run Locally
+
+```bash
+npm run dev
+```
+
+---
+
+## 🚀 Deployment (via gh-pages)
+
+This app uses the `gh-pages` package to deploy the `dist` folder to GitHub Pages.
+
+### Commands
+
+```bash
+npm run build      # Builds the app for production
+npm run deploy     # Deploys dist/ to GitHub Pages
+```
+
+---
+
+## 📁 Folder Structure
+
+```
+my-app/
+├── public/
+├── src/
+│   ├── App.jsx
+│   └── main.jsx
+├── dist/          # Built site (after running build)
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome. For major changes, please open an issue first.
