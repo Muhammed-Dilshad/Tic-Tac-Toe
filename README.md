@@ -6,8 +6,6 @@ This is a React application built using [Vite](https://vitejs.dev/) and deployed
 
 👉 [View Site](https://muhammed-dilshad.github.io/Tic-Tac-Toe/)
 
-> Replace with your actual URL after deployment.
-
 ---
 
 ## 📦 Tech Stack
