@@ -1,0 +1,116 @@
+/* Base & Layout */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #fef9f9, #e0f7ff);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 40px;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .game {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.game-board {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.status {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #1e3a8a;
+}
+
+/* Squares */
+.square {
+  width: 70px;
+  height: 70px;
+  font-size: 28px;
+  font-weight: bold;
+  border: 2px solid #93c5fd;
+  background-color: #f0f9ff;
+  color: #0f172a;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+.square:hover {
+  background-color: #dbeafe;
+  cursor: pointer;
+}
+
+/* Color-coded X and O */
+.square:contains("X") {
+  color: #ef4444;
+}
+.square:contains("O") {
+  color: #3b82f6;
+}
+
+.board-row {
+  display: flex;
+}
+
+/* Game Info (Move History) */
+.game-info {
+  max-width: 220px;
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.game-info h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #2563eb;
+}
+
+.game-info ol {
+  list-style: none;
+  padding: 0;
+}
+
+.game-info button {
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px 12px;
+  background-color: #dbeafe;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.game-info button:hover {
+  background-color: #93c5fd;
+}
+
+.game-info button.active {
+  background-color: #3b82f6;
+  color: white;
+}
