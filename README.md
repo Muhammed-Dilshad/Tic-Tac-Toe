@@ -22,8 +22,8 @@ This is a React application built using [Vite](https://vitejs.dev/) and deployed
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com//Muhammed-Dilshad/Tic-Tac-Toe.git
+cd Tic-Tac-Toe
 ```
 
 ### 2. Install Dependencies
